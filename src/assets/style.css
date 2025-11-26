@@ -134,3 +134,15 @@ input, textarea, select {
     }
   }
 }
+
+
+.link {
+  color: blue !important;      /* ensures blue color */
+  text-decoration: underline;  /* adds the underline */
+  cursor: pointer;             /* shows hand cursor on hover */
+}
+
+.link:hover {
+  color: darkblue;             /* optional: darker shade on hover */
+  text-decoration: none;       /* optional: removes underline on hover */
+}
